@@ -92,6 +92,7 @@ nav{
 }
 
 .navbar{
+	min-width: 80%;
 	max-width: 80%;
 	width: 80%;
 	padding: 2.5%;
@@ -609,6 +610,16 @@ footer .icon-type{
 
 
 /*TABLET PORTRAIT*/@media screen and (max-width: 768px){
+	/*NAV*/
+	.menuBar{
+		padding: 2.5% 0;
+	}
+
+	/*HOME*/
+	#home{
+		padding-top: 5%;
+	}
+
 	/*QUIENES SOMOS*/
 	.identidad, .weAre, .ubication{
 		padding: 0;
@@ -721,6 +732,9 @@ footer .icon-type{
 
 /*MOBILE LANDSCAPE*/@media screen and (max-width: 500px){
 	/*NAV*/
+	.menuBar{
+		padding: 3% 1%;
+	}
 	.button-nav-toggle {
   		left: 88%;
   	}
@@ -793,9 +807,9 @@ footer .icon-type{
 
 	/*QUIENES SOMOS*/
 	.map{
-		height: 60vh;
-		max-height: 60vh;
-		min-height: 60vh;
+		height: 50vh;
+		max-height: 50vh;
+		min-height: 50vh;
 	}
 
 	/*FOOTER*/
