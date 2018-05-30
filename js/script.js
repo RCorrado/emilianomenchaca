@@ -2,11 +2,12 @@ $(document).ready(function(){
 
   //Cambiar fondo de la barra de menú al scrollear
   $(window).scroll(function() {
-    if($(window).scrollTop() > 200 ) {
-      $('nav').css("background", "rgba(4, 132, 159, 1");
-    } else{
-      $('nav').css("background", "rgb(0, 0, 0, 0)");
-    }
+    if()
+      if($(window).scrollTop() > 200 ) {
+        $('nav').css("background", "rgba(4, 132, 159, 1");
+      } else{
+        $('nav').css("background", "rgb(0, 0, 0, 0)");
+      }
   });
 
   //Animación al clickear sobre enlace menú
