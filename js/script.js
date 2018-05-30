@@ -2,7 +2,6 @@ $(document).ready(function(){
 
   //Cambiar fondo de la barra de menú al scrollear
   $(window).scroll(function() {
-    if()
       if($(window).scrollTop() > 200 ) {
         $('nav').css("background", "rgba(4, 132, 159, 1");
       } else{
